@@ -129,10 +129,29 @@ h1 {
 
 #horoscopeSign {
 	font-size: 60px;
+	margin-bottom: 5px;
+}
+
+#dateChoice {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#yesterday {
+	cursor: pointer;
+}
+
+#today {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#tomorrow {
+	cursor: pointer;
 }
 
 #horoscopeDate {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 #horoscope {
