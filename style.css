@@ -1,0 +1,123 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+
+
+
+body {
+	background: #ffffff;
+	font: 16px 'Raleway', Helvetica, Verdana, Arial;
+	color: #171717;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
+	text-align: center;
+	overflow: hidden;
+}
+
+h1 {
+	color: #171717;
+	font-size: 90px;
+	font-family: 'Exo 2', sans-serif;
+	letter-spacing: -2px;
+	text-shadow: -3px 2px 0 #6f6f6f;
+}
+
+.main {
+	margin-top: 20px;
+}
+
+.signRow {
+	float: left;
+	max-height: 140px;
+	margin-bottom: 20px;
+}
+
+.signBox {
+	width: 140px;
+	padding-top: 5px;
+	box-shadow: 2px 2px 2px #888888;
+	margin-right: 15px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.signBox:hover {
+	opacity: .75;
+}
+
+.signText {
+	background: #eee9e9;
+	margin-top: 5px;
+	padding: 3px 0px;
+}
+
+.signName {
+	font-size: 18px;
+}
+
+.signDate {
+	font-size: 14px;
+}
+
+#aries {
+	background: #e4151b;
+}
+
+#taurus {
+	background: #e85813;
+}
+
+#gemini {
+	background: #ee8b00;
+}
+
+#cancer {
+	background: #f7b700;
+}
+
+#leo {
+	background: #b0d122;
+}
+
+#virgo {
+	background: #65bd33;
+}
+
+#libra {
+	background: #02a391;
+}
+
+#scorpio {
+	background: #009fcf;
+}
+
+#sagittarius {
+	background: #4275ce;
+}
+
+#capricorn {
+	background: #8659ce;
+}
+
+#aquarius {
+	background: #d54dc9;	
+}
+
+#pisces {
+	background: #e81a6d;
+}
+
+footer {
+	clear: both;
+}
