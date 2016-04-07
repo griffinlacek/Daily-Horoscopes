@@ -85,9 +85,17 @@ function getDailyHoroscope(sign, day) {
 			jsonCompat: 'new',
 		},
 		timeout: 2500,
+		tryCount: 0,
+		retryLimit: 3,
 		dataType: 'jsonp',
 		success: function(response){
-			if(response.query.results.json.status == 400) {
+			if(response.query.results == null) {
+				this.tryCount++;
+				if(this.tryCount <= this.retryLimit) {
+					//Try API request again if bad results
+					$.ajax(this);
+					return;
+				}
 				horoscopeText.innerHTML = "Problem getting horoscope. Try again!";
 				return;
 			}	
