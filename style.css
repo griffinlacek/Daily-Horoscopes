@@ -88,11 +88,12 @@ h1 {
 
 #leo {
 	background: #b0d122;
+	margin-right: 19.5px;
 }
 
 #virgo {
 	background: #65bd33;
-	margin-right: -2px;
+	margin-right: 0px;
 }
 
 #libra {
@@ -113,11 +114,12 @@ h1 {
 
 #aquarius {
 	background: #d54dc9;	
+	margin-right: 19.5px;
 }
 
 #pisces {
 	background: #e81a6d;
-	margin-right: -2px;
+	margin-right: 0px;
 }
 
 #horoscopeView {
