@@ -111,7 +111,7 @@ function getDailyHoroscope(sign, day) {
 			horoscopeText.innerHTML = horoscope;
 		},
 		error: function(x, t, e) {
-			if(t===timeout) {
+			if(t==="timeout") {
 				horoscope.innerHTML = "Problem getting horoscope. Try again!";
 			}
 		}
